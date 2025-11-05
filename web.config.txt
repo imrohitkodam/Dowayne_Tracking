@@ -3,8 +3,6 @@
    <location path=".">
    <system.webServer>
 
-       <rewrite>
-           <rules>
                <rule name="Joomla! Common Exploits Prevention" stopProcessing="true">
                    <match url="^(.*)$" ignoreCase="false" />
                    <conditions logicalGrouping="MatchAny">
