@@ -2,7 +2,7 @@
 <configuration>
    <location path=".">
    <system.webServer>
-       <directoryBrowse enabled="false" />
+
        <rewrite>
            <rules>
                <rule name="Joomla! Common Exploits Prevention" stopProcessing="true">
