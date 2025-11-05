@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field name="id" type="text" default="0" label="COM_SOCIALADS_FORM_LBL_CAMPAIGN_ID" readonly="true" class="readonly" description="JGLOBAL_FIELD_ID_DESC" filter="INTEGER"/>
+		<field name="user_id" type="text" class="form-control" label="COM_SOCIALADS_FORM_LBL_CAMPAIGN_USER_ID" description="COM_SOCIALADS_FORM_DESC_CAMPAIGN_USER_ID" filter="INTEGER"/>
+		<field name="business_name" type="text" required="true" default="" label="COM_SOCIALADS_FORM_LBL_BUSINESS_NAME" description="COM_SOCIALADS_FORM_DESC_BUSINESS_NAME" />
+		<field name="description" type="textarea" default="" label="COM_SOCIALADS_FORM_LBL_DESCRIPTION" description="COM_SOCIALADS_FORM_DESC_DESCRIPTION" />
+
+		<field type="adzone" name="adzone" label="COM_SOCIALADS_SELECT_ZONE" description="COM_SOCIALADS_SELECT_ZONE_DESC">
+			<option value="0">COM_SOCIALADS_SELECT_ZONE</option>
+		</field>
+		<field name="map_zoom_size" type="hidden" default="10" />
+		
+        <field name="state" type="radio" label="JSTATUS" description="JFIELD_PUBLISHED_DESC" class="btn-group" size="1" default="1">
+			<option value="1">JPUBLISHED</option>
+			<option value="0">JUNPUBLISHED</option>
+		</field>
+	</fieldset>
+</form>
